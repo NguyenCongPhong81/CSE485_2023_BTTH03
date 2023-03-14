@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page_title }}</title>
+</head>
+{% comment %} <body>
+    <h1>{{ welcome_message }}</h1>
+    <ul>
+        {% for item in menu_items %}
+            <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+        {% endfor %}
+    </ul>
+</body> {% endcomment %}
+</html>

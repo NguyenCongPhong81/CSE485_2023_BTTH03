@@ -1,0 +1,19 @@
+{
+    "name": "barca/bai2",
+    "autoload": {
+        "psr-4": {
+            "Barca\\Bai2\\": "src/",
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nguyen Cong Phong",
+            "email": "barcatrongtim2@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "twig/twig": "^3.5"
+    }
+}
