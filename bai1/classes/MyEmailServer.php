@@ -22,15 +22,15 @@ class MyEmailServer implements EmailServerInterface
             $mail->isSMTP();                                            // Send using SMTP
             $mail->Host       = 'smtp.gmail.com';                       // Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-            $mail->Username   = 'tuan260202@gmail.com';                 // SMTP username
+            $mail->Username   = 'barcatrongtim2@gmail.com';                 // SMTP username
             $mail->Password   = 'ylmjddbmpuwkypem';                     // SMTP password
             $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
             $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
             $mail->CharSet = 'UTF-8';
 
             //Recipients
-            $mail->setFrom('tuan260202@gmail.com', 'Localhost');
-            $mail->addAddress($to, 'Hoàng Anh Tuấn');     // Add a recipient
+            $mail->setFrom('phongnc6@fpt.com.vn', 'Localhost');
+            $mail->addAddress($to, 'Nguyễn Công Phong');     // Add a recipient
             // $mail->addReplyTo('info@gmail.com', 'Hoàng Anh Tuấn');
 
             // Content
